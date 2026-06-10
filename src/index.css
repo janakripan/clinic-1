@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primaryTeal: #2FA79A;
+  --color-secondaryTeal: #278C81;
+  --color-darkTeal: #1D6F67;
+  --color-darkText: #1F2937;
+  --color-bodyText: #6B7280;
+  --color-lightBg: #F7F9F8;
+  --color-borderColor: #E5E7EB;
+  --color-successGreen: #3BAA62;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-bodyText bg-white m-0 p-0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-darkText font-semibold;
+  }
+}
+
+.container-custom {
+  @apply max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 w-full;
+}
+
+/* Custom Scrollbar for a polished look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F9F8; 
+}
+::-webkit-scrollbar-thumb {
+  background: #2FA79A; 
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #278C81; 
+}
