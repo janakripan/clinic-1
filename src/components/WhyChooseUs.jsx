@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section className="py-14 bg-lightBg overflow-hidden">
+    <section id="about" className="py-14 bg-lightBg overflow-hidden">
       <div className="container-custom">
         <div className="flex flex-col lg:flex-row items-center gap-8">
           {/* Left: Image Collage */}

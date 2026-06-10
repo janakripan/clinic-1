@@ -15,7 +15,7 @@ const DynamicFaIcon = ({ name }) => {
 
 const Services = () => {
   return (
-    <section className="py-14 bg-white">
+    <section id="services" className="py-14 bg-white">
       <div className="container-custom">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start mb-10 gap-6">

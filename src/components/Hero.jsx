@@ -16,7 +16,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative w-full bg-[#3BB094] pt-24 lg:pt-28 pb-20 lg:pb-32 overflow-visible z-10 h-[100vh] min-h-[600px] max-h-[850px] flex items-center">
+    <section id="home" className="relative w-full bg-[#3BB094] pt-24 lg:pt-28 pb-20 lg:pb-32 overflow-visible z-10 h-[100vh] min-h-[600px] max-h-[850px] flex items-center">
       
       {/* Vertical grid lines */}
       <div className="absolute inset-0 pointer-events-none opacity-20 flex justify-evenly">

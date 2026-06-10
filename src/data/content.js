@@ -1,9 +1,8 @@
 export const navLinks = [
-  { name: "Home", path: "#" },
-  { name: "About", path: "#" },
-  { name: "Services", path: "#" },
-  { name: "Pages", path: "#" },
-  { name: "Contact", path: "#" },
+  { name: "Home", path: "#home" },
+  { name: "About", path: "#about" },
+  { name: "Services", path: "#services" },
+  { name: "Contact", path: "#contact" },
 ];
 
 export const heroData = {

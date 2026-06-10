@@ -3,7 +3,7 @@ import { FaHospitalSymbol } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-primaryTeal relative overflow-hidden text-white pt-14">
+    <footer id="contact" className="bg-primaryTeal relative overflow-hidden text-white pt-14">
       {/* Decorative Grid Lines */}
       <div
         className="absolute inset-0 pointer-events-none opacity-20"
